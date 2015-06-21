@@ -15,7 +15,7 @@ while ischar(cov_file)
     data(i).covariances = [];   
     j = 1;
     while j <= size(D, 1)
-        C = {D(j:(j + num_features - 1), 2:end)};
+        C = {D(j:(j + num_features - 1), 1:end)};
         data(i).covariances = [data(i).covariances C];
         j = j + num_features;
         ncovs = ncovs + 1;
