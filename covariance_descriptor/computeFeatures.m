@@ -37,7 +37,9 @@ else  % Unorganized point cloud
         x(i) = pcd_data(1,i);
         y(i) = pcd_data(2,i);
         z(i) = pcd_data(3,i);
-        [r(i), g(i), b(i)] = unpackRGBFloat(pcd_data(4,i));
+        r(i) = pcd_data(4,i);
+        g(i) = pcd_data(5,i);
+        b(i) = pcd_data(6,i);
     end
 end
 fprintf('done\n');
