@@ -10,8 +10,8 @@ Covariance descriptors can then be utilized to create dictionaries that provide
 a compact representation of the object. Lastly, a set of dictionaries for a
 range of objects can be used to classify new point cloud data.
 
-This software implements dictionary learning on RGB-D covariance descriptors for
-3D point cloud data. The descriptors used can be used with the following
+This software implements dictionary learning on RGB-D covariance descriptors
+for 3D point cloud data. The descriptors can be used with the following
 features: position (x,y,z), color (r,g,b), normals (nx, ny, nz), image
 intensity (I), gradient of the intensity along x and y (Ix,Iy), magnitude of
 the intensity gradient (M), gradient of the depth along x and y (Dx,Dy),
