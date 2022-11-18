@@ -84,9 +84,9 @@ Followed by:
     $ python utilities/generate_acf_dataset.py subsampled-rgbd-dataset-tmp subsampled-rgbd-acf-train subsampled-rgbd-acf-test
 
 The training and test datasets for performing leave-sequence-out instance
-classification can be created simply by moving the sub-directories in the
+classification can be created simply by moving the subdirectories in the
 subsampled RGB-D dataset that correspond to '2\_\*' (sensor mounted 45 degrees)
-within a class to a separate test directory. The remaining sub-directories of
+within a class to a separate test directory. The remaining subdirectories of
 each class, '1\_\*' and '4\_\*', makeup the training dataset.
 
 Now we can create a file where each line contains the absolute path to a
