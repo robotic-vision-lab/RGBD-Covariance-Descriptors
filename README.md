@@ -93,9 +93,9 @@ Now we can create a file where each line contains the absolute path to a
 directory containing the point cloud, RGB, and depth data files of a class. For
 example:
 
-    /home/beksi/laidb/subsampled-rgbd-dataset/apple/apple_1
-    /home/beksi/laidb/subsampled-rgbd-dataset/apple/apple_2
-    /home/beksi/laidb/subsampled-rgbd-dataset/apple/apple_3
+    /home/beksi/rgbddb/subsampled-rgbd-dataset/apple/apple_1
+    /home/beksi/rgbddb/subsampled-rgbd-dataset/apple/apple_2
+    /home/beksi/rgbddb/subsampled-rgbd-dataset/apple/apple_3
     ...
 
 This allows classes to be easily added or removed simply by editing the file.
