@@ -168,4 +168,4 @@ be to the right, i.e.,
 
 ### License
 
-[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://github.com/robotic-vision-lab/RGBD-Covariance-Descriptors/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://github.com/robotic-vision-lab/RGBD-Covariance-Descriptors/blob/master/LICENSE)
