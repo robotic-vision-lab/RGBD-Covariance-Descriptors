@@ -14,16 +14,16 @@ range of objects can be used to classify new point cloud data.
 <img src='./images/covariance_descriptor_features.png'>
 </p>
 
-This repository software implements dictionary learning on RGB-D covariance
-descriptors for 3D point cloud data. The descriptors can be used with the
-following features: position (x,y,z), color (r,g,b), normals (nx, ny, nz),
-image intensity (I), gradient of the intensity along x and y (Ix,Iy), magnitude
-of the intensity gradient (M), gradient of the depth along x and y (Dx,Dy),
-magnitude of the depth gradient (D), principal curvatures (c1,c2), and Gaussian
-curvature (K). The software provides the ability to create covariance matrices
-given point cloud data (PCD) files as input. Descriptor data is saved to a text
-file and can be used to evaluate classification performance on a dataset via
-different validation methods. 
+This repository provides software to enable dictionary learning on RGB-D
+covariance descriptors for 3D point cloud data. The descriptors can be used
+with the following features: position (x,y,z), color (r,g,b), normals (nx, ny,
+nz), image intensity (I), gradient of the intensity along x and y (Ix,Iy),
+magnitude of the intensity gradient (M), gradient of the depth along x and y
+(Dx,Dy), magnitude of the depth gradient (D), principal curvatures (c1,c2), and
+Gaussian curvature (K). The software provides the ability to create covariance
+matrices given point cloud data (PCD) files as input. Descriptor data is saved
+to a text file and can be used to evaluate classification performance on a
+dataset via different validation methods. 
 
 ### Citation
 
