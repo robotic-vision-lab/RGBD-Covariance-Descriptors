@@ -25,7 +25,9 @@ different validation methods.
 <img src='./images/covariance_descriptor_features.png'>
 </p>
 
-If you find this code useful, then please consider citing our work:
+### Citation
+
+If you find this project useful, then please consider citing our work.
 
 ```                                                                                                                                                           
 @inproceedings{beksi2015object,
