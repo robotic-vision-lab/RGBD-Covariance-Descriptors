@@ -1,6 +1,7 @@
 ## RGB-D Covariance Descriptors
 
 ### Overview
+
 The ability of a machine to recognize objects is a fundamental problem within
 robotics and computer vision. To address this issue, we compute covariance
 descriptors that encapsulate features (e.g., position, color, normals, etc.)
