@@ -12,7 +12,7 @@ a compact representation of the object. Lastly, a set of dictionaries for a
 range of objects can be used to classify new point cloud data.
 
 <p align="center">
-<img src='./images/covariance_descriptor_features.png'>
+  <img src="./images/covariance_descriptor_features.png" alt="overview">
 </p>
 
 This repository provides software to enable dictionary learning on RGB-D
